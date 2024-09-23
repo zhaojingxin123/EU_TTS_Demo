@@ -1,6 +1,7 @@
 # EU_TTS_Demo
-一个基于类似UNET的条件流匹配的，带有情感的TTS
-目前情感或者说韵律的部分还没有很好的实现，因为只用了AISHELL训练，一个人做的效果还在优化，放了一些样例上来：
+一个基于CFM的语音合成项目，使用类似UNET的条件流匹配的，带有情感的TTS
+项目还在优化，准备后期开源。
+目前情感或者说韵律的部分还没有很好控制的实现，因为只用了AISHELL训练，一个人做的效果还在优化，放了一些样例上来：
 效果还行，但是就是展示面板还没来得及做，
 这一部分是参考的原声音
 ![image](https://github.com/user-attachments/assets/14ab8695-89ca-4a9a-982e-050e8cea1378)
@@ -14,7 +15,7 @@
 Listen to the demo audio clip:
 
 <audio controls>
-  <source src="demo-audio.mp3" type="audio/mpeg">
+  <source src="SSB00050032.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
